@@ -7,28 +7,6 @@ header a img{
   width: 134px;
 margin-top: 4px;
 }
-.login:hover,
-.login:focus {
-  -webkit-animation: login 1s;
-          animation: login 1s;
-  box-shadow: 0 0 0 2em transparent;
-}
-
-@-webkit-keyframes login {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover);
-  }
-}
-
-@keyframes login {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover);
-  }
-}
-.login {
-  --color: rgb(0, 58, 0);
-  --hover: rgb(121, 247, 121);
-}
 .login-page {
   width: 360px;
   padding: 8% 0 0;
